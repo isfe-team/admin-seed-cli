@@ -2,7 +2,9 @@
 
 const program = require('commander')
 const package = require('../package.json')
-const init = require('../init')
+const init = require('../lib/init')
+const logger = require('../lib/logger')
+
 
 // now, no options
 program
@@ -16,4 +18,4 @@ if (program.init) {
   return
 }
 
-console.log('error')
+logger.error('Incorrect option, see usages with --help option plz.')

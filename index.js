@@ -1,1 +1,1 @@
-module.exports = require('./init')
+module.exports = require('./lib/init')
