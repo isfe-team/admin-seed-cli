@@ -15,4 +15,4 @@ $ admin-seed init <ProjectName>
 
 ## TODOs
 
-[ ]support more options =_=(*may be later.....*
+- [ ] support more options =_=(*may be later.....*
