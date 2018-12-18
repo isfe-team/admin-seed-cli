@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "admin-seed": "bin/admin-seed-init"
+    "admin-seed": "bin/admin-seed"
   },
   "repository": {
     "type": "git",
