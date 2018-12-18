@@ -1,7 +1,7 @@
 {
   "name": "@isfe/admin-seed-cli",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Cli for admin seed project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/isfe-team/admin-seed-cli.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "bq-hentai",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/isfe-team/admin-seed-cli/issues"
