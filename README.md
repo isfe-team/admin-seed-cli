@@ -10,9 +10,10 @@ Cli of admin seed project, the template is downloaded from [isfe-team/admin-seed
 
 ```sh
 $ npm i -g @isfe/admin-seed-cli
-$ admin-seed init <ProjectName>
+## For Repo syntax, see https://github.com/flipxfx/download-git-repo#readme for more details
+$ admin-seed --project <ProjectName> --repo <Repo>
 ```
 
 ## TODOs
 
-- [ ] support more options =_=(*may be later.....*
+- [x] support repo param

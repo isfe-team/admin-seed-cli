@@ -3,19 +3,16 @@
 const program = require('commander')
 const package = require('../package.json')
 const init = require('../lib/init')
-const logger = require('../lib/logger')
-
 
 // now, no options
 program
-  .usage('[options] <ProjectName>')
+  .usage('--project <ProjectName> --repo <Repo>')
   .version(package.version)
-  .option('init', 'generate initial project')
+  .option('-P, --project <ProjectName>', 'set the name of project')
+  .option('-R, --repo <Repo>',  'set specific template repo')
   .parse(process.argv)
 
-if (program.init) {
-  init(program.args[0])
-  return
-}
+const useDefaultRepo = !program.repo
+const repo = useDefaultRepo ? 'isfe-team/admin-seed' : program.repo
 
-logger.error('Incorrect option, see usages with --help option plz.')
+init(program.project, repo)
