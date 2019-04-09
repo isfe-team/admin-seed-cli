@@ -6,10 +6,10 @@ const init = require('../lib/init')
 
 // now, no options
 program
-  .usage('--project <ProjectName> --repo <Repo>')
+  .usage('--project <ProjectName> --repo [Repo]')
   .version(package.version)
   .option('-P, --project <ProjectName>', 'set the name of project')
-  .option('-R, --repo <Repo>',  'set specific template repo')
+  .option('-R, --repo [Repo]',  'set specific template repo')
   .parse(process.argv)
 
 const useDefaultRepo = !program.repo

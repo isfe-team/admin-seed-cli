@@ -1,6 +1,6 @@
 {
   "name": "@isfe/admin-seed-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Cli for admin seed project.",
   "main": "index.js",
   "scripts": {
